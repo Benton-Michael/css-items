@@ -13,6 +13,13 @@
   justify-content: center;
 }
 
+.gradient-border {
+  border: solid;
+  border-image-slice: 1;
+  border-width: 7px;
+  border-image-source: linear-gradient(60deg, #b16ec4, #5f97b9);
+}
+
 .menu {
   height: 150px;
   width: 150px;
